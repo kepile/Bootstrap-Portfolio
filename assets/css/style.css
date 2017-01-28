@@ -1,0 +1,195 @@
+/*Portfolio - main page with about me*/
+
+* {
+  box-sizing: border-box;
+  }
+
+
+
+body {
+  background-image: url(../images/bright_squares_@2X.png);
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #777777;
+}
+
+.top-color {
+  background-color: white;
+}
+
+.navbar-header {
+   font-family: 'Georgia', Times, 'Times New Roman', serif;
+   font-weight: 700;
+    font-size: 30px;
+   color: white;
+   
+}
+
+.pile { 
+ background-color: #4aaaa5;
+  color: white; }
+
+li:hover {
+  background-color: #4aaaa5;
+}
+
+
+
+
+
+h1, h2, h3 {
+   font-family: Georgia;
+   }
+
+
+.connect {
+  background: #ffffff;
+  color: #4aaaa5;
+  border: 2px solid #dddddd;
+}
+
+
+h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #bbb;
+  
+}
+
+
+#push-down {
+  clear: both;
+  border-bottom: none;
+}
+
+.logo {
+  
+  width: 20px;
+ 
+}
+
+.logo:hover  {
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+
+.content {
+  background:  #ffffff;
+  text-align: left;
+  
+}
+
+
+#portrait {
+
+  /*float: left;*/
+  width: 20%;
+  /*margin-left: 2%;*/
+  /*margin-right: 10px;*/
+
+}
+
+/*.projects {
+width: 40%;
+position: relative; 
+float: left;
+ margin: 0 10px 10px 5%;
+
+}
+
+.project-image {
+  clear: both;
+  width: 100%;
+  float: left;
+   
+}
+
+.project-image:hover {
+  height: 110%;
+  width: 110%;
+ 
+}
+
+.label {
+  position:  absolute;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  bottom: 5px;
+  width: 100%;
+  padding: 5% 0;
+}
+*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+#message  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+input:hover  {
+  background-color: lightblue;
+}
+
+#message:hover  {
+  background-color: lightblue;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+footer {
+  background: #666666; 
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+#small-logo {
+
+  border-bottom: none;
+  width: 1%;
+  
+}
+
