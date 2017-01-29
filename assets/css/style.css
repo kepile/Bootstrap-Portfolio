@@ -14,21 +14,13 @@ body {
   color: #777777;
 }
 
-.top-color {
+#wrapper {
   background-color: white;
 }
 
-.navbar-header {
-   font-family: 'Georgia', Times, 'Times New Roman', serif;
-   font-weight: 700;
-    font-size: 30px;
-   color: white;
-   
+li: {
+  color:black;
 }
-
-.pile { 
- background-color: #4aaaa5;
-  color: white; }
 
 li:hover {
   background-color: #4aaaa5;
@@ -38,8 +30,20 @@ li:hover {
 
 
 
-h1, h2, h3 {
-   font-family: Georgia;
+h1 {
+  font-family:'Georgia', Times, Times New Roman, serif;
+   background-color: #4aaaa5;
+   color: white;
+   font-size:30px
+   font-weight: 400;
+}
+
+h2,
+h3 {
+   font-family:'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+   font-size: 30px;
+   font-weight: 150;
    }
 
 
@@ -54,12 +58,6 @@ h2 {
     font-size: 20px;
     border-bottom: 1px solid #bbb;
   
-}
-
-
-#push-down {
-  clear: both;
-  border-bottom: none;
 }
 
 .logo {
@@ -83,28 +81,20 @@ h2 {
 }
 
 
-#portrait {
-
-  /*float: left;*/
-  width: 20%;
-  /*margin-left: 2%;*/
-  /*margin-right: 10px;*/
-
-}
-
-/*.projects {
-width: 40%;
-position: relative; 
-float: left;
- margin: 0 10px 10px 5%;
-
-}
-
 .project-image {
-  clear: both;
-  width: 100%;
-  float: left;
+  
+  width: 80%;
+  position: relative;
+
+}
+
+.caption {
+  position: absolute;
+    background-color: white;
+    bottom: 15%;
+      width: 100%;
    
+ 
 }
 
 .project-image:hover {
@@ -118,45 +108,12 @@ float: left;
   text-align: center;
   color: #ffffff;
   background-color: #4aaaa5;
-  bottom: 5px;
-  width: 100%;
-  padding: 5% 0;
-}
-*/
+  bottom: 10px;
 
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background
+ 
 }
 
-input[type=email], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
 
-}
-
-#message  {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-
-
-}
 input:hover  {
   background-color: lightblue;
 }
