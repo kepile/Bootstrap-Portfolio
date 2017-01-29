@@ -1,1 +1,1 @@
-<?php include_once("https://github.com/kepile/Bootstrap-Portfolio.git"); ?>
+<?php include_once("index.html"); ?>
